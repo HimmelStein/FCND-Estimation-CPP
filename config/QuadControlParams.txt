@@ -24,41 +24,31 @@ maxMotorThrust = 4.5
 
 # Position control gains 1
 ## 2_AttitudeControl 2~4
-kpPosXY = 15
 kpPosXY = 8
 
 ## 2_AttitudeControl 2~4
-kpPosZ = 35
 kpPosZ = 20
 
 ##
 # 4_Nonidealities 40 ~ 80
-KiPosZ = 50
-KiPosZ = 40 #11
+KiPosZ = 40
 
 # Velocity control gains 8~16
 ## 2_AttitudeControl
-kpVelXY = 10
 kpVelXY = 6
 
 ## 2_AttitudeControl 8~16
-kpVelZ = 65
 kpVelZ = 45
 
 # Angle control gains 5
 ## 2_AttitudeControl 10~20, the less, the better
-kpBank = 12
-kpBank = 10
-kpBank = 8 #11
+kpBank = 8
 
 ## 2_AttitudeControl 2~4
-kpYaw = 3
 kpYaw = 0.7
 
 
-# Angle rate gains 46~92, 46~92, 10~20
-## 2_AttitudeControl, 46~92, 46~92 ,10~20
-kpPQR = 100, 73, 15
+# Angle rate gains 46~92, 46~92, 10~20 
 kpPQR = 50, 50, 10
 
 # limits
